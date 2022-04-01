@@ -1,0 +1,52 @@
+// .compliance-table {
+//     thead, tbody, tfoot, tr, td, th {
+//         padding: 0 10px 20px 10px
+//     }
+    
+//     td {
+//         font-size: 13px;
+//         padding: 20px 10px;
+//     }
+//     th {
+//         border-bottom: 1px solid #efefef !important;
+//         font-size: 14px;
+//         padding-bottom: 20px !important;
+//     }
+//     tr {
+//         padding: 20px !important;
+//     }
+//     tr:nth-child(even) {
+//         background-color: #F4F5FA;
+//     }
+//     .user-details {
+//         line-height: 25px;
+//     }
+// }
+
+
+
+.table-container{
+
+  &__head{
+    border-bottom: 1px solid #efefef;
+    font-size: 13px;
+    padding-bottom: 20px !important;
+  }
+  td {
+    font-size: 12px;
+    padding: 30px 12px;
+  }
+
+  th {
+    font-size: 13px;
+    padding: 12px 10px;
+    border-bottom: 1px solid #efefef !important;
+  }
+  th:nth-child(2) {
+      width: 90px !important;
+  }
+
+  tr:nth-child(even) {
+    background-color: #F4F5FA;
+  }
+}

@@ -1,0 +1,15 @@
+@import '../../styles/shared-styles';
+
+.user-card {
+  background: #fff;
+  border-radius: 6px;
+  padding: to-rem(20px);
+  width: auto;
+
+  @include phone{
+    border: 1px solid rgba(144, 144, 144, 0.2);
+    border-radius: 0;
+    padding: to-rem(20px);
+    width: 350px;
+  }
+}

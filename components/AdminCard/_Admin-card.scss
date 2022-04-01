@@ -1,0 +1,14 @@
+@import '../../styles/shared-styles';
+
+.admin-section {
+    background-color: $white;
+    height: auto;
+    border-radius: 8px;
+    padding: 30px 10px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
+    .admin-list {
+        border-bottom: 1px solid #efefef;
+    }
+}

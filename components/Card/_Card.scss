@@ -1,0 +1,28 @@
+@import '../../styles/shared-styles';
+
+.card-container {
+    background-color: $white;
+    height: auto;
+    border-radius: 8px;
+    padding: 30px 20px;
+}
+
+    .card-title {
+        font-size: 11px;
+        width: 50%;
+    }
+
+    .wallet-balance {
+        font-weight: bold;
+        color: #130F40;
+        font-size: 18px;
+        margin-top: -13px;
+    }
+    .priceImpactMessage {
+        font-size: 11px;
+    }
+    .price-impact {
+        font-size: 11px;
+        color: #6FCF97;
+        margin-left: 7px;
+    }

@@ -1,0 +1,41 @@
+// .compliance-section {
+//     h6 {
+//         border-bottom: 1px solid #efefef;
+//         padding-bottom: 10px;
+//         font-weight: 500;
+//         font-size: 14px;
+//     }
+//      p{
+//          font-size: 13px;
+//      }
+
+//      ul li {
+//          list-style: none;
+//          margin-left: -28px;
+//      }
+// }
+
+.compliance-table {
+    thead, tbody, tfoot, tr, td, th {
+        padding: 0 10px 20px 10px
+    }
+    
+    td {
+        font-size: 13px;
+        padding: 20px 10px;
+    }
+    th {
+        border-bottom: 1px solid #efefef !important;
+        font-size: 14px;
+        padding-bottom: 20px !important;
+    }
+    tr {
+        padding: 20px !important;
+    }
+    tr:nth-child(even) {
+        background-color: #F4F5FA;
+    }
+    .user-details {
+        line-height: 25px;
+    }
+}
