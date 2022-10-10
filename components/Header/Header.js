@@ -8,16 +8,16 @@ const Header = () => {
                         <img src="./dashboard-icon.png" alt="" className="me-2" height="27" /><p>Dashboard</p>
                     </div>
 
-                    <div className="col">
+                    {/* <div className="col">
                         <form>
                             <div className="search">
                                 <img src="./search-icon.png" className="search-icon" alt="" height="12" />
                                 <input type="text" className="search-bar" placeholder="Search here..." />
                             </div>
                         </form>
-                    </div>
+                    </div> */}
 
-                    <div className="col d-flex">
+                    {/* <div className="col d-flex">
 
                         <div className="mt-3 d-flex icons">
                             <img src="./notification-icon.png" className="me-5" alt="" height="18" />
@@ -33,7 +33,7 @@ const Header = () => {
                             <img src="./avatar.png" alt="" className="avatar me-3" height="40" />
                             <img src="./arrow-down.png" className="mt-3 me-2" alt="" height="8" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
             </div>
